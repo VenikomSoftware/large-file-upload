@@ -1,10 +1,6 @@
 <div>
-    <input
-        type="file"
-        wire:model="theFile"
-    />
+    <input type="file" wire:model="theFile" />
     <br>
-
     <div>
         @if ($theFile)
             <a wire:click="uploadFile">Upload</a>
