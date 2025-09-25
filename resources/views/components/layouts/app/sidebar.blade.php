@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
     <head>
         @include('partials.head')
@@ -30,7 +30,7 @@
             </flux:navlist>
 
             <!-- Desktop User Menu -->
-            <flux:dropdown class="hidden lg:block" position="bottom" align="start">
+            <!-- <flux:dropdown class="hidden lg:block" position="bottom" align="start">
                 <flux:profile
                     :name="auth()->user()->name"
                     :initials="auth()->user()->initials()"
@@ -75,7 +75,6 @@
             </flux:dropdown>
         </flux:sidebar>
 
-        <!-- Mobile User Menu -->
         <flux:header class="lg:hidden">
             <flux:sidebar.toggle class="lg:hidden" icon="bars-2" inset="left" />
 
@@ -122,11 +121,11 @@
                         </flux:menu.item>
                     </form>
                 </flux:menu>
-            </flux:dropdown>
-        </flux:header>
+            </flux:dropdown> 
+        </flux:header> -->
 
         {{ $slot }}
-
         @fluxScripts
+<!-- 
     </body>
-</html>
+</html> -->
